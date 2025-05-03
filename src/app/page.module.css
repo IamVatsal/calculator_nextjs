@@ -166,4 +166,8 @@ a.secondary {
   }
 }
 
-
+@media (max-width: 420px) {
+  .container {
+    width: 90%;
+  }
+}

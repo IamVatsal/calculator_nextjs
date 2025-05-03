@@ -37,3 +37,45 @@
     padding: 10px;
     box-sizing: border-box;
 }
+@media (max-width: 420px) {
+    .calculator{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        width: 105%;
+        height: 400px;
+        background-color: #818181;
+        border-radius: 1.25%;
+        padding: 13px;
+        padding-right: 13px;
+        padding-left: 9px;
+        margin: 10px auto;
+        font-family: Arial, sans-serif;
+    }
+    .buttons{
+        width: 100%;
+        display: grid;
+        gap: 10px;
+        color: white !important;
+        margin-top: 20px;
+    }
+    .button{
+        width: 80%;
+        height: 50px;
+        background-color: #007bff;
+        color: rgb(42, 42, 42) !important;
+        border: none;
+        border-radius: 5px;
+        font-size: 23px !important;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .textField{
+        font-size: x-large !important;
+        width: 100%;
+        font-size: 20px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
